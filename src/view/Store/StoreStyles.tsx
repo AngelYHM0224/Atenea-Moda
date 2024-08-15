@@ -10,7 +10,7 @@ export default StyleSheet.create({
     header: {
         width: '100%',
         padding: 10,
-        backgroundColor: '#FFA500',
+        backgroundColor: '#8e44ad',
         alignItems: 'center',
     },
     title: {
@@ -18,10 +18,32 @@ export default StyleSheet.create({
         fontWeight: 'bold',
         color: '#fff',
     },
-    content: {
-        flex: 1,
-        justifyContent: 'center',
+    productsContainer: {
+        width: '100%',
+        padding: 10,
+    },
+    productCard: {
+        width: '100%',
+        backgroundColor: '#f8f9fa',
+        borderRadius: 10,
         alignItems: 'center',
+        marginBottom: 20,
+        padding: 15,
+    },
+    productImage: {
+        width: 120,
+        height: 120,
+        marginBottom: 10,
+    },
+    productTitle: {
+        fontSize: 16,
+        fontWeight: 'bold',
+        color: '#333',
+        marginBottom: 5,
+    },
+    productPrice: {
+        fontSize: 14,
+        color: '#6c757d',
     },
     footer: {
         width: '100%',
@@ -29,9 +51,6 @@ export default StyleSheet.create({
         flexDirection: 'row',
         justifyContent: 'space-around',
         alignItems: 'center',
-        backgroundColor: '#FFA500',
-    },
-    icon: {
-        color: '#fff',
+        backgroundColor: '#8e44ad',
     },
 });

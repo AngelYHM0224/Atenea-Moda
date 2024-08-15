@@ -5,7 +5,7 @@ import { RootStackParamList } from '../../types';
 import styles from './ChatStyles'; 
 import HomeIcon from '../../../assets/icon/house-solid.svg';
 import CommentIcon from '../../../assets/icon/comment-solid.svg';
-import InfoIcon from '../../../assets/icon/circle-info-solid.svg';
+import ShoppingIcon from '../../../assets/icon/basket-shopping-solid.svg';
 import UserIcon from '../../../assets/icon/user-solid.svg';
 
 export const ChatScreen = () => {
@@ -73,8 +73,8 @@ export const ChatScreen = () => {
                 <TouchableOpacity onPress={() => navigation.navigate('Chat')}>
                     <CommentIcon width={30} height={30} fill="#fff" />
                 </TouchableOpacity>
-                <TouchableOpacity onPress={() => navigation.navigate('Info')}>
-                    <InfoIcon width={30} height={30} fill="#fff" />
+                <TouchableOpacity onPress={() => navigation.navigate('Store')}>
+                    <ShoppingIcon width={30} height={30} fill="#fff" />
                 </TouchableOpacity>
                 <TouchableOpacity onPress={() => navigation.navigate('Profile')}>
                     <UserIcon width={30} height={30} fill="#fff" />
